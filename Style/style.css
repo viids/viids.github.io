@@ -1,0 +1,16 @@
+.body {
+    background-image: url("bg-img-2.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* background-size: 90%; */
+  }
+  .h1{
+      font-size: large;
+      color: azure;
+  }
+  .p{
+      font-size: medium;
+      color: azure;
+  }
