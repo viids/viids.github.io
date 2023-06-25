@@ -1,4 +1,4 @@
-.body {
+body {
     background-image: url("bg-img-2.jpg");
     background-color: #cccccc;
     background-repeat: no-repeat;
@@ -6,11 +6,23 @@
     position: relative;
     /* background-size: 90%; */
   }
-  .h1{
+  /* .h1{
       font-size: large;
       color: azure;
   }
   .p{
       font-size: medium;
       color: azure;
+  } */
+  .bg-image {
+    /* Adjust background image properties */
+    background-size: cover;
+    background-position: center;
+  }
+
+  h1, p, a {
+    /* Customize text styles */
+    color: white;
+    text-align: center;
+    /* Add additional styles as needed */
   }
