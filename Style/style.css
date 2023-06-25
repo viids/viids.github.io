@@ -18,6 +18,7 @@ body {
     /* Adjust background image properties */
     background-size: cover;
     background-position: center;
+    height: 100vh;
   }
 
   h1, p, a {
