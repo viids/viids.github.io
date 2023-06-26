@@ -4,26 +4,89 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
     /* background-size: 90%; */
   }
-  /* .h1{
-      font-size: large;
-      color: azure;
+  h1{
+    font-size: large;
+    color: black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
   }
-  .p{
-      font-size: medium;
-      color: azure;
-  } */
   .bg-image {
     /* Adjust background image properties */
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    background-repeat: no-repeat;
+    height: 65vh;
   }
 
-  h1, p, a {
+  p, a {
     /* Customize text styles */
     color: white;
     text-align: center;
     /* Add additional styles as needed */
+  }
+  .profile_contact{
+    background-color: black;
+  }
+  .content-wrapper {
+    /* max-width: 64%; */
+    margin: 0 auto;
+}
+
+.card-area {
+    background-color: #f1f1f1;
+    color: black;
+    padding: 20px;
+}
+.card-p{
+    color: black;
+}
+.home-p{
+    color: black;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar {
+    grid-column: 1 / -1; /* Span the entire width of the grid */
+  }
+
+  .main-content {
+    width: 100%;
+  }
+
+  .main-content img {
+    width: 100%;
+    height: auto;
+  }
+
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    padding-top: 70px; /* Adjust the padding-top value to provide enough space for the navbar */
+    
+  }
+
+  .row {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+
+  .card-img-top {
+    width: auto;
+    height: auto;
+    max-width: 50%;
+    max-height: 50%;
+  }
+
+    .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
