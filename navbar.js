@@ -2,10 +2,12 @@
 const navbarContainer = document.getElementById('navbar-container');
 
 fetch('navbar.html')
-  .then(response => response.text())
-  .then(data => {
-    navbarContainer.innerHTML = data;
-  })
-  .catch(error => {
-    console.error('Error:', error);
-  });
+    .then(response => response.text())
+    .then(data => {
+        navbarContainer.innerHTML = data;
+    })
+      .catch(error => {
+        console.error('Error:', error);
+    });
+
+
